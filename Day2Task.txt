@@ -1,0 +1,42 @@
+Document Object:
+
+1.document object is a  "Web Page".
+2.This is showing Text,Image,button...
+
+
+Windows Object:
+
+1.windows object is a "Magical Window".
+2.This is showing for Multiple Windows.
+
+
+Codekata Practice:
+
+function performAction(action) {
+switch(action) {
+case "walk":
+console.log("The Robot is walking!!");
+break;
+case "jump":
+console.log("The Robot is jumping!!");
+break;
+case "wave":
+console.log("The Robot is waving!!");
+break;
+default:
+console.log("Invalid action!!");
+}
+}
+performAction("walk");
+performAction("wave");
+performAction("jump");
+performAction("speak");
+
+
+output:
+
+The Robot is walking!!
+The Robot is waving!!
+The Robot is jumping!!
+Invalid action!!
+
